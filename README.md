@@ -1,1 +1,1 @@
-Practice repo
+This repo is for my programming practice
