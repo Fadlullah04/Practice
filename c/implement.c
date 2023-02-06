@@ -1,14 +1,7 @@
-//#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include"main.h"
 
-typedef struct node {
-  int data;
-  struct node *next;
-} Node;
-typedef struct node *nodePtr;
-
-nodePtr head = NULL;
 
 void insert(int x) {
   nodePtr temp = (Node *)malloc(sizeof(Node));
@@ -25,8 +18,7 @@ void Print(void) {
   }
 }
 
-int main(void) 
-{
-    insert(7);
-    Print();
+int main(void) {
+  insert(11);
+  Print();
 }
